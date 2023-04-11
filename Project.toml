@@ -1,0 +1,13 @@
+name = "GitLabCISub2"
+uuid = "0c825e4a-f476-45ea-8667-4d6a1b82536a"
+authors = ["Simeon Ehrig <s.ehrig@hzdr.de> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
