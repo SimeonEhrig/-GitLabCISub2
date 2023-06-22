@@ -3,6 +3,9 @@ uuid = "0c825e4a-f476-45ea-8667-4d6a1b82536a"
 authors = ["Simeon Ehrig <s.ehrig@hzdr.de> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
+
 [compat]
 julia = "1"
 
