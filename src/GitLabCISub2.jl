@@ -19,7 +19,7 @@ function get_rectangle_area(width, height)
     return width * height
 end
 
-if !isinteractive()
+function print_colored_text()
     println(Crayon(foreground = :red), "In red. ", Crayon(bold = true), "Red and bold")
 end
 
